@@ -1,0 +1,355 @@
+{
+    "files.autoSave": "afterDelay",
+    "dart.flutterSdkPath": "/Users/muhammednaseeb/flutter",
+    "workbench.iconTheme": "material-icon-theme",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "code-runner.runInTerminal": true,
+    "explorer.confirmDelete": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "genieai.enableConversationHistory": true,
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "dart.flutterRunAdditionalArgs": [
+        "flutter run -d chrome --web-renderer html"
+    ],
+    "editor.inlineSuggest.enabled": true,
+    "errorLens.editorHoverPartsEnabled": {
+        "messageEnabled": true,
+        "sourceCodeEnabled": true,
+        "buttonsEnabled": true
+    },
+    "errorLens.enableOnDiffView": true,
+    "errorLens.fontFamily": "'Pathway Extreme', sans-serif",
+    "vim.vimrc.enable": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // NAVIGATION
+        // switch b/w buffers
+        {
+            "before": [
+                "<S-h>"
+            ],
+            "commands": [
+                ":bprevious"
+            ]
+        },
+        {
+            "before": [
+                "<S-l>"
+            ],
+            "commands": [
+                ":bnext"
+            ]
+        },
+        // splits
+        {
+            "before": [
+                "leader",
+                "v"
+            ],
+            "commands": [
+                ":vsplit"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "s"
+            ],
+            "commands": [
+                ":split"
+            ]
+        },
+        // panes
+        {
+            "before": [
+                "leader",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.focusLeftGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "j"
+            ],
+            "commands": [
+                "workbench.action.focusBelowGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "k"
+            ],
+            "commands": [
+                "workbench.action.focusAboveGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.focusRightGroup"
+            ]
+        },
+        // NICE TO HAVE
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                ":w!"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "q"
+            ],
+            "commands": [
+                ":q!"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "x"
+            ],
+            "commands": [
+                ":x!"
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "d"
+            ],
+            "commands": [
+                "editor.action.marker.prev"
+            ]
+        },
+        {
+            "before": [
+                "]",
+                "d"
+            ],
+            "commands": [
+                "editor.action.marker.next"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "a"
+            ],
+            "commands": [
+                "editor.action.quickFix"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "p"
+            ],
+            "commands": [
+                "editor.action.formatDocument"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "h"
+            ],
+            "commands": [
+                "editor.action.showDefinitionPreviewHover"
+            ]
+        },
+        // Go to Declaration
+        {
+            "before": [
+                "leader",
+                "n"
+            ],
+            "commands": [
+                "editor.action.goToDeclaration"
+            ]
+        },
+        // Flutter Refresh
+        {
+            "before": [
+                "leader",
+                "r"
+            ],
+            "after": [
+                "<D-F5>"
+            ]
+        } 
+    ],
+    "vim.visualModeKeyBindings": [
+        // Stay in visual mode while indenting
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        // Move selected lines while staying in visual mode
+        {
+            "before": [
+                "J"
+            ],
+            "commands": [
+                "editor.action.moveLinesDownAction"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.moveLinesUpAction"
+            ]
+        },
+        // toggle comment selection
+        {
+            "before": [
+                "leader",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        },
+        // place double quotes around selected text
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "args": {
+                "snippet": "\"$TM_SELECTED_TEXT\""
+            }
+        },
+    ],
+    "vim.leader": "<Space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "code-runner-output": false
+    },
+    "chatgpt.lang": "en",
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "errorLens.excludeBySource": [
+        "dart(avoid_print)"
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "indentRainbow.colors": [
+        "rgba(3, 4, 94,0.15)",
+        "rgba(2, 62, 138,0.15)",
+        "rgba(0, 119, 182, 0.15)",
+        "rgba(0, 150, 199,0.15)",
+        "rgba(0, 180, 216,0.15)",
+        "rgba(72, 202, 228,0.15)",
+        "rgba(144, 224, 239,0.15)",
+        "rgba(144, 224, 239,0.1)",
+        "rgba(144, 224, 239,0.05)",
+        "rgba(144, 224, 239,0.025)"
+    ],
+    "workbench.colorTheme": "Night Owl",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#ffff00",
+    "terminalCursor.foreground": "#ffff00"
+    },
+    "yaml.schemas": {
+        "file:///Users/muhammednaseeb/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.enabled": true,
+    "atlascode.bitbucket.enabled": false,
+    "atlascode.jira.jqlList": [
+        {
+            "id": "9dbe8856-bebd-42df-b03f-601e1ffef5a9",
+            "enabled": true,
+            "name": "My letsbayin Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "d749865b-ed54-45e4-a671-599ba74b3adb",
+            "monitor": true
+        }
+    ],
+    "rapidapi.terminalLink.enabled": false,
+    "fluttergpt.apiKey": "AIzaSyB5En0PjSAlE8aLfOU2FpAxqEpK-QunhSE",
+    "CodeGPT.apiKey": "Google",
+    "CodeGPT.Autocomplete.provider": "Google - text-bison-001 - english only",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "editor.cursorBlinking": "expand",
+    "security.workspace.trust.untrustedFiles": "open",
+    "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
+    "vscode-neovim.neovimInitVimPaths.darwin": "~/.config/nvim/init.lua",
+    "window.zoomLevel": 1,
+    "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.vim",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-22",
+            "path": "/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home",
+            "default": true
+        },
+    ],
+}
